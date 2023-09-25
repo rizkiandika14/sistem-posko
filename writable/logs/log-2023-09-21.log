@@ -1,0 +1,1903 @@
+ERROR - 2023-09-21 04:18:07 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-09-21 05:17:07 --> syntax error, unexpected token "<", expecting end of file
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(12): view()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 06:05:52 --> Cannot use object of type App\Models\LoginModel as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 06:15:14 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 728
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(62): CodeIgniter\Model->__call()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2023-09-21 06:18:18 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:18:38 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:21:26 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:22:55 --> password_verify(): Argument #2 ($hash) must be of type string, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(76): password_verify()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:24:10 --> password_verify(): Argument #2 ($hash) must be of type string, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(76): password_verify()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:27:17 --> password_verify(): Argument #2 ($hash) must be of type string, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(76): password_verify()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:28:34 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:28:50 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:30:47 --> Call to a member function select() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 06:33:59 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:37:04 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:37:16 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:37:22 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:38:26 --> password_verify(): Argument #2 ($hash) must be of type string, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(76): password_verify()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:42:40 --> implode(): Argument #1 ($separator) must be of type array|string, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(64): implode()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:43:00 --> implode(): Argument #2 ($array) must be of type ?array, App\Models\LoginModel given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(64): implode()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:44:05 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:44:34 --> Array callback must have exactly two elements
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 06:45:32 --> Undefined array key "password"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:49:15 --> Object of class App\Models\LoginModel could not be converted to string
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 06:52:15 --> Undefined array key "username"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Login.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 06:53:52 --> Illegal offset type
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Login->cekUser()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 07:22:00 --> Class "app\Filters\FilterSuperadmin" not found
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2023-09-21 07:23:23 --> Class "app\Filters\FilterSuperadmin" not found
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2023-09-21 07:23:24 --> Class "app\Filters\FilterSuperadmin" not found
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2023-09-21 07:26:41 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Debug/Toolbar.php(413): strpos()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 07:31:06 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Debug/Toolbar.php(413): strpos()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 07:31:11 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Debug/Toolbar.php(413): strpos()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 07:33:16 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Debug/Toolbar.php(413): strpos()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 07:47:11 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Debug/Toolbar.php(413): strpos()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(436): CodeIgniter\Filters\Filters->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 07:56:20 --> FilterSuperadmin filter must have a matching alias defined.
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 08:17:01 --> Attempt to read property "username" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(23): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 10:17:46 --> Undefined variable $user
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/layout/templates.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(23): view()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2023-09-21 10:51:00 -->  route cannot be found while reverse-routing.
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(51): redirect()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 10:51:53 -->  route cannot be found while reverse-routing.
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(51): redirect()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 10:52:40 --> Undefined variable $csrf
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 10:53:07 -->  route cannot be found while reverse-routing.
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(51): redirect()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2023-09-21 11:33:04 --> Column 'role' cannot be null
+CRITICAL - 2023-09-21 11:33:04 --> Column 'role' cannot be null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(45): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2023-09-21 11:34:11 --> Undefined variable $title
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/layout/templates.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(47): view()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2023-09-21 11:42:05 --> Invalid file: /user.php
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(53): view()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 12:02:47 --> Undefined variable $old
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(32): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 12:33:51 --> Undefined variable $user
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(100): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 12:44:35 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 12:45:33 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 14:32:21 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 14:32:36 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(100): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 14:32:36 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 14:40:07 --> Undefined variable $users
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(12): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-21 14:43:41 --> Table 'posko_app.kabupatens' doesn't exist
+CRITICAL - 2023-09-21 14:43:41 --> Table 'posko_app.kabupatens' doesn't exist
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(20): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 14:44:02 --> Table 'posko_app.kabupatens' doesn't exist
+CRITICAL - 2023-09-21 14:44:02 --> Table 'posko_app.kabupatens' doesn't exist
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(20): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 14:44:03 --> Table 'posko_app.kabupatens' doesn't exist
+CRITICAL - 2023-09-21 14:44:03 --> Table 'posko_app.kabupatens' doesn't exist
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(20): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 14:44:04 --> Table 'posko_app.kabupatens' doesn't exist
+CRITICAL - 2023-09-21 14:44:04 --> Table 'posko_app.kabupatens' doesn't exist
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(20): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2023-09-21 14:44:33 --> Undefined variable $user
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:09:53 --> Undefined property: CodeIgniter\View\View::$db
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:10:20 --> Undefined property: CodeIgniter\View\View::$db
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:10:21 --> Undefined property: CodeIgniter\View\View::$db
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:10:32 --> Undefined property: CodeIgniter\View\View::$KabupatenModel
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:10:52 --> Undefined property: CodeIgniter\View\View::$kabupatenModel
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:11:51 --> Undefined variable $db
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:13:32 --> Undefined property: CodeIgniter\View\View::$db
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:13:41 --> Undefined variable $user_id
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 15:36:23 --> Call to undefined method App\Models\KecamatanModel::group_by
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php(30): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(20): App\Models\KecamatanModel->getJumlahDesa()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+ERROR - 2023-09-21 15:36:44 --> Not unique table/alias: 'kecamatan'
+CRITICAL - 2023-09-21 15:36:44 --> Not unique table/alias: 'kecamatan'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php(31): CodeIgniter\Model->__call()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(20): App\Models\KecamatanModel->getJumlahDesa()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2023-09-21 15:38:10 --> Call to undefined method App\Models\KecamatanModel::group_by
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php(31): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(20): App\Models\KecamatanModel->getJumlahDesa()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+ERROR - 2023-09-21 15:38:19 --> Not unique table/alias: 'kecamatan'
+CRITICAL - 2023-09-21 15:38:19 --> Not unique table/alias: 'kecamatan'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php(32): CodeIgniter\Model->__call()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(20): App\Models\KecamatanModel->getJumlahDesa()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2023-09-21 15:44:44 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:44:59 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:00 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:09 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:10 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:10 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:11 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:24 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:45:28 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:51:09 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:51:53 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:53:10 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(176): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 15:53:25 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:53:36 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 15:53:37 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php on line 184
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(184): CodeIgniter\Database\BaseResult->getResult()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(21): CodeIgniter\BaseModel->findAll()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 16:05:09 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:06:44 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:08:15 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:08:36 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:08:45 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:19:58 --> foreach() argument must be of type array|object, null given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kecamatan/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:21:13 --> foreach() argument must be of type array|object, null given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kecamatan/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:21:17 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php on line 31 and at least 1 expected
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KecamatanModel.php(31): CodeIgniter\Database\BaseConnection->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(24): App\Models\KecamatanModel->getJumlahKecamatan()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2023-09-21 16:22:39 --> foreach() argument must be of type array|object, null given
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kecamatan/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(26): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:32:27 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:34:12 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:38:03 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/user.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:40:07 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(24): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:48:25 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 16:48:57 --> Undefined property: stdClass::$id
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 16:51:48 --> Undefined property: stdClass::$jumlah_kecamatan
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-21 16:57:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) as jumlah_kecamatan
+        FROM kabupaten 
+        LEFT JOIN kecamatan ON...' at line 1
+CRITICAL - 2023-09-21 16:57:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) as jumlah_kecamatan
+        FROM kabupaten 
+        LEFT JOIN kecamatan ON...' at line 1
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/KabupatenModel.php(36): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(20): App\Models\KabupatenModel->getJumlahKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 17:22:44 --> Undefined variable $validation
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/tambah.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(18): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->tambah()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 17:41:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:42:41 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:43:38 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:44:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:48:32 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:57:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 17:58:57 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 18:01:44 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 18:02:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 18:03:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 18:04:16 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php on line 27
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(27): CodeIgniter\Database\BaseBuilder->like()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 18:38:41 --> Undefined variable $kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/index.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(21): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 18:41:21 --> Undefined variable $kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/index.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(21): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 18:41:45 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/index.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(25): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-21 19:44:07 --> Unknown column 'nama_kabupaten' in 'field list'
+CRITICAL - 2023-09-21 19:44:07 --> Unknown column 'nama_kabupaten' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(46): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkabupaten()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 20:27:45 --> Unknown column 'id_desa' in 'field list'
+CRITICAL - 2023-09-21 20:27:45 --> Unknown column 'id_desa' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(70): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkecamatan()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 20:28:17 --> Unknown column 'id_desa' in 'field list'
+CRITICAL - 2023-09-21 20:28:17 --> Unknown column 'id_desa' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(70): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkecamatan()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 20:29:18 --> Unknown column 'id_desa' in 'field list'
+CRITICAL - 2023-09-21 20:29:18 --> Unknown column 'id_desa' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(70): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkecamatan()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2023-09-21 20:29:46 --> Unknown column 'id_desa' in 'field list'
+CRITICAL - 2023-09-21 20:29:46 --> Unknown column 'id_desa' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(70): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->ajaxSearchkecamatan()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2023-09-21 21:17:19 --> Undefined variable $kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(32): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:21:18 --> syntax error, unexpected token "<", expecting end of file
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-21 21:21:45 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:22:09 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:22:10 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:22:11 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:22:11 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:22:28 --> Undefined variable $isInvalidNamadesa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/tambah.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(37): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->create()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-21 21:40:25 --> Unknown column 'nama_kecamatan' in 'field list'
+CRITICAL - 2023-09-21 21:40:25 --> Unknown column 'nama_kecamatan' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(92): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2023-09-21 21:40:57 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-09-21 21:40:57 --> Unknown column 'updated_at' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(91): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2023-09-21 21:41:45 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-09-21 21:41:45 --> Unknown column 'updated_at' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(91): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2023-09-21 21:42:18 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-09-21 21:42:18 --> Unknown column 'updated_at' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(91): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2023-09-21 21:44:07 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-09-21 21:44:07 --> Unknown column 'updated_at' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(91): CodeIgniter\BaseModel->save()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->save()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2023-09-21 21:46:19 --> Undefined array key "nama_desa"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(106): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:48:40 --> Undefined array key "nama_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(107): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:59:08 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(107): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 21:59:40 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(107): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:00:09 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(107): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:00:41 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(108): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:00:41 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(108): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:02:03 --> Call to a member function findAll() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:02:59 --> Call to a member function where() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:03:00 --> Call to a member function where() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:03:07 --> Call to a member function where() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:08:49 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(109): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:11:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(102): App\Models\LoginModel->getUserid()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 22:12:21 --> CodeIgniter\Database\BaseConnection::query(): Argument #1 ($sql) must be of type string, CodeIgniter\Database\MySQLi\Result given, called in /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LoginModel.php on line 48
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(102): App\Models\LoginModel->getUserid()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2023-09-21 22:13:09 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:53 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:54 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:54 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:55 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:55 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:13:55 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:14:03 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(109): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:14:46 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(109): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:14:47 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(109): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:25:38 --> Undefined array key "id_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:26:26 --> Undefined array key "id_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:26:37 --> Undefined array key "id_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:26:39 --> Undefined array key "id_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:28:05 --> Call to a member function result() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:28:13 --> Call to a member function getResult() on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:36:15 --> Undefined array key "id_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:36:42 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:37:07 --> Undefined array key "users.id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:37:39 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:37:50 --> Undefined array key "username"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:38:10 --> Attempt to read property "id" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:38:21 --> Undefined array key "id"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(110): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:42:25 --> Undefined array key "id_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(108): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:46:39 --> Undefined array key "id_kecamatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/user/edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(108): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-21 22:51:50 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:52:46 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:52:48 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:53:22 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:53:22 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 22:53:23 --> Call to a member function findAll() on null
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->edit()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2023-09-21 23:12:17 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(33): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 23:14:31 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/User.php(33): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\User->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-21 23:25:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kecamatan.php(24): App\Models\KecamatanModel->getJumlahKecamatan()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kecamatan->index()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-21 23:32:38 --> Undefined property: stdClass::$jumlah_kecamatan
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/kabupaten/index.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Kabupaten.php(22): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Kabupaten->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

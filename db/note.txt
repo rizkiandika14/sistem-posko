@@ -1,0 +1,1 @@
+Sistem ini menggunakan Framework CodeIgniter 4.1.9 dengan PHP versi 8.1.17

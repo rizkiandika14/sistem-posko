@@ -1,0 +1,750 @@
+CRITICAL - 2023-09-23 00:00:58 --> Undefined variable $laporan
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/detail.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(262): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 00:01:05 --> Attempt to read property "nama_kabupaten" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/detail.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(262): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 00:01:53 --> Undefined variable $laporans
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(262): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 00:01:55 --> Undefined variable $laporans
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(262): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 00:19:50 --> Undefined variable $laporan
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/detail.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(262): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 01:32:05 --> Undefined variable $user
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/data_banjir/edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(282): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->edit()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 01:33:28 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(282): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->edit()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2023-09-23 05:59:27 --> Unknown column 'dibuat' in 'where clause'
+CRITICAL - 2023-09-23 05:59:27 --> Unknown column 'dibuat' in 'where clause'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(54): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/DataPelaporan.php(54): App\Models\LaporanModel->getFilterTanggal()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\DataPelaporan->filter_proses()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 06:01:30 --> Undefined variable $tg11
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/DataPelaporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\DataPelaporan->filter_proses()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 07:16:51 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Pelaporan.php(266): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Pelaporan->detail()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-23 08:14:45 --> Undefined variable $laporans
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(14): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 08:16:01 --> Undefined property: App\Controllers\ManagePelaporan::$laporanModel
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->index()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 08:33:20 --> Call to undefined method App\Models\LaporanModel::getFilterLaporanAdmin
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(57): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->filter()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 08:46:07 --> Undefined variable $laporans
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_batal.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(34): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batal()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 08:47:37 --> Undefined variable $laporans
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_selesai.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(52): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->selesai()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:11:56 --> Undefined variable $desa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_proses.php(136): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(44): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->proses()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:14:55 --> Undefined variable $kabupatens
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_proses.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(44): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->proses()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:33:45 --> Undefined variable $desa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_proses.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(44): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->proses()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:36:46 --> Attempt to read property "nama_kabupaten" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_proses.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(44): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->proses()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:49:14 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 09:49:30 --> Undefined array key -1
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Helpers/tgl_indo_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/content/pelaporan_batal.php(105): tgl_indo()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(35): view()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batal()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+ERROR - 2023-09-23 09:51:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:51:19, status = 'batal'
+                WHERE id_pelaporan = 15' at line 2
+CRITICAL - 2023-09-23 09:51:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:51:19, status = 'batal'
+                WHERE id_pelaporan = 15' at line 2
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(246): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 09:51:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:51:49, status = 'batal'
+                WHERE id_pelaporan = 12' at line 2
+CRITICAL - 2023-09-23 09:51:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:51:49, status = 'batal'
+                WHERE id_pelaporan = 12' at line 2
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(246): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 09:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:52:32 AND status = 'batal'
+                WHERE id_pelaporan = 12' at line 2
+CRITICAL - 2023-09-23 09:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:52:32 AND status = 'batal'
+                WHERE id_pelaporan = 12' at line 2
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(246): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 09:55:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:55:24 AND status = 'batal'
+                WHERE id_pelaporan = 15' at line 2
+CRITICAL - 2023-09-23 09:55:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '09:55:24 AND status = 'batal'
+                WHERE id_pelaporan = 15' at line 2
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(246): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 09:56:07 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 09:57:38 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 09:58:40 --> Value of type bool is not callable
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/ManagePelaporan.php(112): App\Models\LaporanModel->batalkan()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\ManagePelaporan->batalkan()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2023-09-23 15:17:50 --> Unknown table 'posko_app.kebupaten'
+CRITICAL - 2023-09-23 15:17:50 --> Unknown table 'posko_app.kebupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 15:18:04 --> Unknown table 'posko_app.kabupaten'
+CRITICAL - 2023-09-23 15:18:04 --> Unknown table 'posko_app.kabupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 15:18:05 --> Unknown table 'posko_app.kabupaten'
+CRITICAL - 2023-09-23 15:18:05 --> Unknown table 'posko_app.kabupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 15:18:06 --> Unknown table 'posko_app.kabupaten'
+CRITICAL - 2023-09-23 15:18:06 --> Unknown table 'posko_app.kabupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 15:18:07 --> Unknown table 'posko_app.kabupaten'
+CRITICAL - 2023-09-23 15:18:07 --> Unknown table 'posko_app.kabupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 15:18:16 --> Unknown table 'posko_app.kabupaten'
+CRITICAL - 2023-09-23 15:18:16 --> Unknown table 'posko_app.kabupaten'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(275): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(25): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:18:43 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:18:44 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:22:25 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:22:39 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:23:58 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:25:39 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-23 15:27:25 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:27:29 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:27:40 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:27:42 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:27:58 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2023-09-23 15:28:09 --> Undefined array key "jumlah_kabupaten"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:28:28 --> Undefined property: stdClass::$jumlah_kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:28:29 --> Undefined property: stdClass::$jumlah_kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:28:30 --> Undefined property: stdClass::$jumlah_kabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:29:38 --> syntax error, unexpected token ","
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(797): class_exists()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-23 15:29:39 --> syntax error, unexpected token ","
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(797): class_exists()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2023-09-23 15:29:45 --> Undefined variable $kabs
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 15:30:59 --> Object of type CodeIgniter\Database\MySQLi\Result is not callable
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(22): App\Models\LaporanModel->getTotalKabupaten()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 15:34:52 --> Call to undefined method App\Models\LaporanModel::getTotalKabupaten
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(22): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2023-09-23 15:56:24 --> Attempt to read property "dibuat" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 15:58:59 --> Attempt to read property "penyebab_banjir" on array
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(28): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 16:09:06 --> Undefined variable $desa
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(35): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->index()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 16:41:20 --> Unknown column 'jumlah__pengungsi' in 'field list'
+CRITICAL - 2023-09-23 16:41:20 --> Unknown column 'jumlah__pengungsi' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(287): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(44): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 16:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 13
+CRITICAL - 2023-09-23 16:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 13
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(287): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(44): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 16:41:48 --> Unknown column 'jumlah__pengungsi' in 'field list'
+CRITICAL - 2023-09-23 16:41:48 --> Unknown column 'jumlah__pengungsi' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(287): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(44): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 16:42:02 --> Unknown column 'jumlah__pengungsi' in 'field list'
+CRITICAL - 2023-09-23 16:42:02 --> Unknown column 'jumlah__pengungsi' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(287): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(44): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 16:42:08 --> Unknown column 'jumlah__pengungsi' in 'field list'
+CRITICAL - 2023-09-23 16:42:08 --> Unknown column 'jumlah__pengungsi' in 'field list'
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(287): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(44): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 16:59:56 --> Undefined array key "dibuat"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/filter_kabupaten.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(48): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-09-23 17:48:44 --> Undefined array key "total_pengobatan"
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Views/statistik/filter_kabupaten.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(210): include('...')
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(48): view()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2023-09-23 18:44:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND laporan.status = 'selesai'' at line 15
+CRITICAL - 2023-09-23 18:44:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND laporan.status = 'selesai'' at line 15
+#0 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Models/LaporanModel.php(289): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/lampp/htdocs/CodeIgniter4-4.1.9/app/Controllers/Statistik.php(46): App\Models\LaporanModel->getKabupaten()
+#5 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(832): App\Controllers\Statistik->filter_kabupaten()
+#6 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CodeIgniter4-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CodeIgniter4-4.1.9/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
